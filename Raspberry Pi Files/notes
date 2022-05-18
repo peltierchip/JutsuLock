@@ -1,0 +1,4 @@
+vcgencmd get_camera
+sudo modprobe bcm2835-v4l2
+cd ~/workspace/rt-ob-det_ssd
+python3 ./ncs_realtime_objectdetection.py --graph mobilenetgraph --display 1
